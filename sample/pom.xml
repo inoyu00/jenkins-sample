@@ -20,6 +20,7 @@
   <build>
     <finalName>sample</finalName>
 
+<!--
     <sourceDirectory>src/main/java</sourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
     <resources>
@@ -27,6 +28,7 @@
         <directory>src/main/resources</directory>
       </resource>
     </resources>
+ -->
 
     <!-- JDK -->
     <plugins>
