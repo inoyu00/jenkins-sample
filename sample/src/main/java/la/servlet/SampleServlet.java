@@ -11,6 +11,7 @@ public class SampleServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.getWriter().println("Hello Servlet!!!!");
+		response.sendRedirect("http://www.google.co.jp");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
