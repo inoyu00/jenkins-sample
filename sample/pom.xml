@@ -13,12 +13,20 @@
   <!-- Properites -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>1.8</java.version>
+    <java.version>1.7</java.version>
   </properties>
 
   <!-- BuildSetting -->
   <build>
     <finalName>sample</finalName>
+
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <outputDirectory>target/classes</outputDirectory>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+      </resource>
+    </resources>
 
     <!-- JDK -->
     <plugins>
@@ -30,6 +38,11 @@
           <source>${java.version}</source>
           <target>${java.version}</target>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.1.0</version>
       </plugin>
 
       <!-- ApacheTomcatPlugin -->
