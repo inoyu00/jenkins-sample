@@ -4,7 +4,7 @@
 		<title>サンプルのページ</title>
 	</head>
 	<body>
-		<form action="form">
+		<form action="form" method="post">
 			<div>
 				入力1：<input type="text" name="val1" />
 			</div>

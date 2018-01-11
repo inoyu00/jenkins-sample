@@ -12,6 +12,6 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>form</servlet-name>
-  	<url-pattern>/SampleServlet</url-pattern>
+  	<url-pattern>/form</url-pattern>
   </servlet-mapping>
 </web-app>
