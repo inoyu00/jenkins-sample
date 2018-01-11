@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class SampleServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("Hello Servlet!!!!!!");
+		response.getWriter().println("Hello Servlet!!!!!!aaaaa");
 		response.sendRedirect("http://www.google.co.jp");
 	}
 
