@@ -9,12 +9,13 @@ import javax.servlet.http.HttpServletResponse;
 
 public class SampleServlet extends HttpServlet {
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("Hello Servlet!!!!!!aaaaa");
-		response.sendRedirect("http://www.google.co.jp");
-	}
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
+		request.setCharacterEncoding("UTF-8");
+		String val1 = request.getParameter("val1");
+		String val2 = request.getParameter("val2");
+
+		response.getWriter().println("入力値は「" + val1 + "」、「" + val2 + "」です。");
 	}
 }
