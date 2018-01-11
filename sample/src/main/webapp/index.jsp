@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>サンプルのページ</title>
+		<title>sample page</title>
 	</head>
 	<body>
 		<form action="form" method="post">
