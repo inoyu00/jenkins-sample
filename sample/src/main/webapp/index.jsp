@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>sample page!</title>
+		<title>sample page!!</title>
 	</head>
 	<body>
 		<h1>TEST</h1>
