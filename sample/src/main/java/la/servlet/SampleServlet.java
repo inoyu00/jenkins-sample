@@ -18,6 +18,7 @@ public class SampleServlet extends HttpServlet {
 		String val2 = request.getParameter("val2");
 		//String val3 = request.getParameter("val3");
 
+		// コメント
 		response.getWriter().println("入力値は「" + val1 + "」、「" + val2 + "」です。");
 	}
 }
