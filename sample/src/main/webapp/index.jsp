@@ -12,7 +12,7 @@
 			<div>
 				input2：<input type="text" name="val2" />
 			</div>
-			<input type="submit" value="submit" />
+			<input type="submit" value="submit!!" />
 		</form>
 	</body>
 </html>
