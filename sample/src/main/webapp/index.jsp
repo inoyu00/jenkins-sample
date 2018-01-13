@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>sample page!</title>
+		<title>sample page!!</title>
 	</head>
 	<body>
 		<h1>TEST</h1>
@@ -12,7 +12,7 @@
 			<div>
 				input2：<input type="text" name="val2" />
 			</div>
-			<input type="submit" value="submit" />
+			<input type="submit" value="submit!!" />
 		</form>
 	</body>
 </html>
