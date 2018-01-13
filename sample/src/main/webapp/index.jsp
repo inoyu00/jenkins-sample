@@ -15,7 +15,7 @@
 			<div>
 				input3：<input type="text" name="val3" />
 			</div>
-			<input type="submit" value="submit!!" />
+			<input type="submit" value="submit" />
 		</form>
 	</body>
 </html>
