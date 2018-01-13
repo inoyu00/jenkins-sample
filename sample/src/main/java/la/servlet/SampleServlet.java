@@ -12,6 +12,7 @@ public class SampleServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
+		// コメント
 		request.setCharacterEncoding("UTF-8");
 		String val1 = request.getParameter("val1");
 		String val2 = request.getParameter("val2");
