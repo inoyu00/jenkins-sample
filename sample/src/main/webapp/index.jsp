@@ -13,9 +13,6 @@
 			<div>
 				input2：<input type="text" name="val2" />
 			</div>
-			<div>
-				input3：<input type="text" name="val3" />
-			</div>
 			<input type="submit" value="submit" />
 		</form>
 	</body>
