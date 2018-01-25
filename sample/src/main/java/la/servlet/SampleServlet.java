@@ -16,6 +16,7 @@ public class SampleServlet extends HttpServlet {
 		String val1 = request.getParameter("val1");
 		String val2 = request.getParameter("val2");
 
+		response.setContentType("text/html;charset=UTF-8");
 		response.getWriter().println("入力値は「" + val1 + "」、「" + val2 + "」です。");
 	}
 }
